@@ -1,2 +1,2 @@
-# anomon.githun.io
+# anomon.github.io
 tugas web prog
