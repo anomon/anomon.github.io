@@ -24,13 +24,13 @@ function order(){
     var PaymentReceived = parseInt(invoice.PaymentReceived.value);
     
     
-    var Changee = PaymentReceived - TotalPrice -7000;
+    var Changee = PaymentReceived - eval(invoice.Payment.value);
     if(isNaN(PaymentReceived)||isNaN(TotalPrice)){
         alert("Please Enter Received Payment");
     }
     else{
         invoice.Total.value = TotalPrice;
-        invoice.Changee.value = PaymentReceived - TotalPrice ;
+        invoice.Changee.value = PaymentReceived - eval(invoice.Payment.value) ;
     }
 }
 
