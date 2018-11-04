@@ -1,2 +1,0 @@
-# cashier
-tugas web prog
