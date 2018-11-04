@@ -1,2 +1,2 @@
-# anomon.github.io
+# cashier
 tugas web prog
